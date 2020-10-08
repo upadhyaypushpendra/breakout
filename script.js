@@ -279,7 +279,6 @@ const startGame = () => {
     if(!isSoundLoaded) loadGameSounds();
     isStarted=true;
     isPaused = false;
-    done done
     gameIntervalId = setInterval(drawGame,10);
 };
 const toggleGameState = () => {
